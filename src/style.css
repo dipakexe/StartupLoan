@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+form {
+    width: 96%;
+    max-width: 800px;
+}
+
+form>div {
+    box-shadow: 0px 0px 3px grey;
+    padding: 1.3em 1em;
+    margin: 1em;
+}
+
+form>section {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+form div label {
+    padding: 0.5em;
+}
+
+form div input {
+
+    width: 100%;
+    font-size: larger;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+}
+
+form>div>select {
+    padding: 1em;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(219, 219, 219);
+    margin: 1em;
+}
+
+button {
+    all: unset;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(58, 133, 255);
+    color: white;
+    font-weight: 700;
+    padding: 0.6em 2em;
+}
